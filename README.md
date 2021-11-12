@@ -6,4 +6,6 @@ With streaming services more popular now than ever before, there are an extensiv
 
 # Data Source
 
-The data used for this project comes from a dataset called MovieLens, which has 
+The data used for this project comes from a dataset called MovieLens, which contains data on links, tags, ratings and movies. For purposes of this project I will focus on ratings and movies.
+
+# 
