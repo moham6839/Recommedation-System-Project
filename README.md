@@ -6,7 +6,7 @@ With streaming services more popular now than ever before, there are an extensiv
 
 # Data Source and Details
 
-* MovieLens dataset
+* MovieLens dataset - contains links, tags, ratings and movies.
 * Ratings - User ID, Movie ID, Rating, Timestamp
 * Movies - Movie ID, Movie, Genre
 * Over 100,000 rows of data
@@ -14,6 +14,6 @@ With streaming services more popular now than ever before, there are an extensiv
 
 # Data Cleaning/EDA
 
-* No missing values
-* Dropped column - timestamp
+* No missing values.
+* Dropped column - timestamp.
 * 
