@@ -21,7 +21,7 @@ With streaming services more popular now than ever before, there are an extensiv
 
 ![image](https://user-images.githubusercontent.com/77416319/142574165-cb5d62d2-f727-459c-91ef-75f2c73a192b.png)
 
-As the above image shows, most of the raw data movie ratings in this dataset were 3.0 or 4.0.
+As the above image shows, most of the raw data movie ratings in this dataset were 3.0 or 4.0 (click on image to enlarge).
 
 # Initial Models Used
 
@@ -49,15 +49,15 @@ I conducted hyperparameter tuning using GridSearch for the two models that perfo
 
 ![image](https://user-images.githubusercontent.com/77416319/142633674-c7d3e3c2-061d-4386-a944-7a08c7ffedea.png)
 
-The image above is a snapshot of the actual ratings and the predicted ratings. The predicted ratings were fairly close to the actual ratings. 
+The image above is a snapshot of the actual ratings and the predicted ratings. The predicted ratings were fairly close to the actual ratings (click on image to enlarge). 
 
 ![image](https://user-images.githubusercontent.com/77416319/142577006-fc704384-b5b1-4e38-bd5e-023b86802f12.png)
 
-From the scatter plot above, the model underpredicted movies that were rated 4 or 5, while it overpredicted movies that were rated 1 or 2. This indicates that the rating system recommends movies that users gave a low rating overall (1 and 2) and doesn't recommend movies that were highly rated (4 and 5).
+From the scatter plot above, the model underpredicted movies that were rated 4 or 5, while it overpredicted movies that were rated 1 or 2. This indicates that the rating system recommends movies that users gave a low rating overall (1 and 2) and doesn't recommend movies that were highly rated (4 and 5) (click on image to enlarge).
 
 ![image](https://user-images.githubusercontent.com/77416319/142577037-d8914b4f-cbe2-4398-8d28-b8c361d61411.png)
 
-The image above is the residual error of the predictive model. The actual ratings of the data were overpredicted within 1 or underpredicted within -1
+The image above is the residual error of the predictive model. The actual ratings of the data were overpredicted within 1 or underpredicted within -1 (click on image to enlarge).
 
 # Popularity Bias
 
@@ -77,15 +77,23 @@ The image above is the residual error of the predictive model. The actual rating
 * Closed Feedback Loop: popularity bias generated in past accumulates, producing more bias in future models.
 **Source: http://people.tamu.edu/~zhaoxing623/publications/Ziwei_KDD_2021.pdf
 
-# Predicted Rating of 1 User
+# Predicted Ratings of 1 User
 
 ![image](https://user-images.githubusercontent.com/77416319/142638992-0cc15baf-7b71-49a9-815f-a63440eddbe1.png)
 
+The image above is a bar plot showing the predicted ratings of 1 user based on movie genre. As the image illustrates, Documentary and Film-Noir were the highest-rated genres for this particular user. These two genres are not traditionally among the most popular genres among users, and could indicate that popularity bias is mitigated in this recommendation system model (click on image to enlarge). 
+
 # Final Conclusions
+
+* SVD - best performing recommendation system model.
+* Predicted ratings error between 1 and -1.
+* Predicted ratings for one user based on movie genre-may help mitigate popularity bias.
 
 # Next Steps
 
-
-
-
-
+* Look beyond movies - include television shows.
+* Compare movie ratings with television ratings.
+* Include other features that may determine what impacts user ratings, i.e. actors, actresses, directors, etc.
+* Data on features of users (i.e. Age, Gender) and examine any trends related to how the rated movies/television shows. 
+* Consider user behavior since beginning of COVID-19 pandemic.
+* Explore popularity bias in future models.
