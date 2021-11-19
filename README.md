@@ -34,10 +34,10 @@ As the above image shows, most of the raw data movie ratings in this dataset wer
 
 # Initial Model Results
 
-KNNBasic - RMSE: 0.9470, MAE: 0.7256
-KNNWithMeans - RMSE: 0.8961, MAE: 0.6847
-KNNWithZScore - RMSE: 0.8970, MAE: 0.6802
-**SVD - RMSE: 0.8725, MAE: 0.6706
-**SVDpp - RMSE: 0.8613, MAE: 0.6598
-NMF - RMSE: 0.9215 , MAE: 0.7065
-**Models that performed the best (lowest RMSE and MAE)
+* KNNBasic - RMSE: 0.9470, MAE: 0.7256
+* KNNWithMeans - RMSE: 0.8961, MAE: 0.6847
+* KNNWithZScore - RMSE: 0.8970, MAE: 0.6802
+*SVD - RMSE: 0.8725, MAE: 0.6706
+*SVDpp - RMSE: 0.8613, MAE: 0.6598
+* NMF - RMSE: 0.9215 , MAE: 0.7065
+*Models that performed the best (lowest RMSE and MAE)
