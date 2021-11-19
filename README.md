@@ -94,6 +94,6 @@ The image above is a bar plot showing the predicted ratings of 1 user based on m
 * Look beyond movies - include television shows.
 * Compare movie ratings with television ratings.
 * Include other features that may determine what impacts user ratings, i.e. actors, actresses, directors, etc.
-* Data on features of users (i.e. Age, Gender) and examine any trends related to how the rated movies/television shows. 
+* Data on features of users (i.e. Age, Gender) and examine any trends related to what ratings users gave movies/television shows. 
 * Consider user behavior since beginning of COVID-19 pandemic.
 * Explore popularity bias in future models.
