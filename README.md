@@ -45,4 +45,12 @@ As the above image shows, most of the raw data movie ratings in this dataset wer
 
 # Final Model
 
-I conducted hyperparameter tuning using GridSearch for the two models that performed the best. Based on the results from GridSearch, I chose SVD as my final model. 
+I conducted hyperparameter tuning using GridSearch for the two models that performed the best. Based on the results from GridSearch, I chose SVD as my final model.
+
+
+
+![image](https://user-images.githubusercontent.com/77416319/142577006-fc704384-b5b1-4e38-bd5e-023b86802f12.png)
+
+![image](https://user-images.githubusercontent.com/77416319/142577037-d8914b4f-cbe2-4398-8d28-b8c361d61411.png)
+
+
