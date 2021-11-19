@@ -31,3 +31,6 @@ As the above image shows, most of the raw data movie ratings in this dataset wer
 * SVD (Single Value Decomposition)
 * SVDpp
 * NMF (Non-Negative Matrix Factorization)
+
+# Final Model
+
