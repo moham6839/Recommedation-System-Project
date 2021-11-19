@@ -42,3 +42,7 @@ As the above image shows, most of the raw data movie ratings in this dataset wer
 * NMF - RMSE: 0.9215 , MAE: 0.7065
 
 **Models that performed the best (lowest RMSE and MAE)
+
+# Final Model
+
+I conducted hyperparameter tuning using GridSearch for the two models that performed the best. Based on the results from GridSearch, I chose SVD as my final model. 
