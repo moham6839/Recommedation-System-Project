@@ -34,3 +34,4 @@ As the above image shows, most of the raw data movie ratings in this dataset wer
 
 # Final Model
 
+![image](https://user-images.githubusercontent.com/77416319/142574689-81b787cd-84cd-4f5a-99de-3cde5529d182.png)
