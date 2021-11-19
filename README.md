@@ -16,4 +16,18 @@ With streaming services more popular now than ever before, there are an extensiv
 
 * No missing values.
 * Dropped column - timestamp.
-* 
+
+# Distribution of Movie Ratings
+
+![image](https://user-images.githubusercontent.com/77416319/142574165-cb5d62d2-f727-459c-91ef-75f2c73a192b.png)
+
+As the above image shows, most of the raw data movie ratings in this dataset were 3.0 or 4.0.
+
+# Initial Models Used
+
+* KNNBasic (K-Nearest Neighbors)
+* KNNWithMeans
+* KNNWithZScore
+* SVD (Single Value Decomposition)
+* SVDpp
+* NMF (Non-Negative Matrix Factorization)
